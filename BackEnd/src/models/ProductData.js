@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/Products');
+mongoose.connect('mongodb://localhost:27017/ProductDB');
 const Schema = mongoose.Schema;
 
 var NewProductSchema = new Schema({
